@@ -1,0 +1,60 @@
+> var ghost = 'Inky';
+undefined
+> ghost
+'Inky'
+> typeof(ghost);
+'string'
+> var numberOfGhosts = 4;
+undefined
+> typeof(numberOfGhosts);
+'number'
+> var ghost = 'Blinky';
+undefined
+> ghost
+'Blinky'
+> var num_ghosts = 4;
+undefined
+> var name = 'Pac-Man';
+undefined
+> var sentence = 'Our hero, ' + name + ', must eat ' + num_ghosts + ' ghosts for maximum points,';
+undefined
+> sentence
+'Our hero, Pac-Man, must eat 4 ghosts for maximum points,'
+> name
+'Pac-Man'
+> name.length;
+7
+> name.toUpperCase();
+'PAC-MAN'
+> name.replace('Man', 'Woman');
+'Pac-Woman'
+> Boolean(undefined)
+false
+> Boolean(null)
+false
+> Boolean(false)
+false
+> Boolean(true)
+true
+> Boolean(0)
+false
+> Boolean(1)
+true
+> Boolean('')
+false
+> Boolean('Waka Waka!')
+true
+>
+> var numThatLooksLikeAnInteger = 1;
+undefined
+> var numThatLooksLikeAFloat = 1;
+undefined
+> typeof(numThatLooksLikeAnInteger);
+'number'
+> typeof(numThatLooksLikeAFloat);
+'number'
+> numThatLooksLikeAnInteger
+1
+> numThatLooksLikeAFloat
+1
+>
